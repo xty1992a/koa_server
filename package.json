@@ -1,0 +1,23 @@
+{
+  "name": "koa_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor -w app.js app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xty1992a/koa_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xty1992a/koa_server/issues"
+  },
+  "homepage": "https://github.com/xty1992a/koa_server#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0"
+  }
+}
